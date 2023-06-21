@@ -51,11 +51,8 @@ class train_regression_model():
 
                 optimizer.step()
 
-                # if batch % 400 == 0:
-                # print(f"Looked at {batch * len(X)}/{len(train_loader.dataset)} samples")
             train_loss /= len(data_loader)
             train_acc /= len(data_loader)
-            test_loss, test_acc = 0, 0
 
             print(f"\nTrain loss: {train_loss} | Train acc: {train_acc}")
 
