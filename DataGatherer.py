@@ -21,4 +21,4 @@ to_save = pd.DataFrame(to_save)
 # numpy_array = data_frame.iloc[0].to_numpy()
 
 # print(numpy_array[0])
-to_save2 = to_save.to_csv(f'{currency1}-{currnecy2}.csv', index=False)
+to_save2 = to_save.to_csv(f'CSV_Data/{currency1}-{currnecy2}.csv', index=False)
